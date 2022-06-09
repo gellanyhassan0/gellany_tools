@@ -6,33 +6,33 @@ gellany_tools have two mode ( single for using one command line or multi for usi
 
 <code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo single -ar1 p22,443<br>
 <code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:30 EDT<br>
-<code>Nmap scan report for 192.168.1.1<br>
-<code>Host is up (0.0026s latency).<br>
+<code>Nmap scan report for 192.168.1.1</code><br>
+<code>Host is up (0.0026s latency).</code><br>
 
-<code>PORT    STATE  SERVICE<br>
-<code>22/tcp  closed ssh<br>
-<code>443/tcp open   https<br>
-<code>MAC Address: D8:29:18:63:40:1C (Huawei Technologies)<br>
+<code>PORT    STATE  SERVICE</code><br>
+<code>22/tcp  closed ssh</code><br>
+<code>443/tcp open   https</code><br>
+
 
 <code>Nmap done: 1 IP address (1 host up) scanned in 13.34 seconds</code><br>
 
-<code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo multi -ar1 p22,443 -ar2 sV<br>
-<code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:37 EDT<br>
-<code>Nmap scan report for 192.168.1.1<br>
-<code>Host is up (0.021s latency).<br>
+<code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo multi -ar1 p22,443 -ar2 sV</code><br>
+<code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:37 EDT</code><br>
+<code>Nmap scan report for 192.168.1.1</code><br>
+<code>Host is up (0.021s latency).</code><br>
 
-<code>PORT    STATE  SERVICE VERSION<br>
-<code>22/tcp  closed ssh<br>
-<code>443/tcp open   ssl<br>
-<code>MAC Address: D8:29:18:63:40:1C (Huawei Technologies)<br>
+<code>PORT    STATE  SERVICE VERSION</code><br>
+<code>22/tcp  closed ssh</code><br>
+<code>443/tcp open   ssl</code><br>
 
-<code>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ <br>
-<code>Nmap done: 1 IP address (1 host up) scanned in 48.73 seconds<br>
-<code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:38 EDT<br>
-<code>Nmap scan report for 192.168.1.1<br>
-<code>Host is up (0.015s latency).<br>
-<code>Not shown: 997 closed tcp ports (reset)<br>
-<code>PORT    STATE SERVICE<br>
+
+<code>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ </code><br>
+<code>Nmap done: 1 IP address (1 host up) scanned in 48.73 seconds</code><br>
+<code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:38 EDT</code><br>
+<code>Nmap scan report for 192.168.1.1</code><br>
+<code>Host is up (0.015s latency).</code><br>
+<code>Not shown: 997 closed tcp ports (reset)</code><br>
+<code>PORT    STATE SERVICE</code><br>
 <code>53/tcp  open  domain<br>
 <code>80/tcp  open  http<br>
 <code>443/tcp open  https<br>
