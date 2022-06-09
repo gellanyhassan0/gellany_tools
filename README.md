@@ -7,7 +7,7 @@ gellany_tools have two mode ( single for using one command line or multi for usi
 
 this example if you want using nmap tool and you dont have installed yet in your os and you can visit this links https://nmap.org https://nmap.org/book/scan-methods-null-fin-xmas-scan.html to advanced your arguments
 
-<code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo single -ar1 p22,443</code><br>
+<code>python3 gellany_tools.py -to nmap -ta 192.168.1.1 -mo single -ar1 p22,443</code><br>
 <code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:30 EDT</code><br>
 <code>Nmap scan report for 192.168.1.1</code><br>
 <code>Host is up (0.0026s latency).</code><br>
@@ -19,7 +19,7 @@ this example if you want using nmap tool and you dont have installed yet in your
 
 <code>Nmap done: 1 IP address (1 host up) scanned in 13.34 seconds</code><br>
 
-<code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo multi -ar1 p22,443 -ar2 sV</code><br>
+<code>python3 gellany_tools.py -to nmap -ta 192.168.1.1 -mo multi -ar1 p22,443 -ar2 sV</code><br>
 <code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:37 EDT</code><br>
 <code>Nmap scan report for 192.168.1.1</code><br>
 <code>Host is up (0.021s latency).</code><br>
