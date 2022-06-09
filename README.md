@@ -61,3 +61,9 @@ optional arguments:
   -hsn HELP_STEALTH_NMAP, --help_stealth_nmap HELP_STEALTH_NMAP
    TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)</code><br>
 
+#docker deploy
+
+<code>docker-compose build
+docker-compose up -d
+docker-compose exec gellany_tools gellany_tools
+docker-compose down</code><br>
