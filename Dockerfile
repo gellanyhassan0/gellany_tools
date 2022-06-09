@@ -9,14 +9,12 @@ RUN apt-get update \
 # Install Python dependecies
 RUN pip install requests
 
-# Install fsociety
-RUN git clone https://github.com/gellanyhassan0/gellany_tools.git \
-  && cd gellany_tools \
-  && chmod +x install.sh \
-  && ./install.sh\
-  && pip install -r requirements.txt 
-
-
+# Install gellany_tools
+RUN mkdir /gellany_tools
+WORKDIR /gellany_tools
+COPY requirements.txt requirements.txt
+COPY gellany_tools.py gellany_tools.py
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 # Hack to keep the container running
-CMD python -c "import signal; signal.pause()"
-CMD [“python3”, “./gellany_tools.py”, "-to nmap -ta 192.168.1.1 -mo single -ar1 p22,443"]
+CMD [“python3”, “./gellany_tools.py"]
