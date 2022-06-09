@@ -39,8 +39,6 @@ this example if you want using nmap tool and you dont have installed yet in your
 <code>53/tcp  open  domain</code<br>
 <code>80/tcp  open  http</code<br>
 <code>443/tcp open  https</code<br>
-  <code>MAC Address: D8:29:18:63:40:1C (Huawei Technologies)</code><br>
-
 <code>Nmap done: 1 IP address (1 host up) scanned in 13.64 seconds</code><br>
   
  <code>python3 gellany_tools.py -h
