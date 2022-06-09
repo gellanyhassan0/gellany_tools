@@ -22,7 +22,7 @@ fi
 
 echo "[✔] Installing ...";
 echo "";
-git clone https://github.com/gellanyhassan0/gellany_tools "$INSTALL_DIR";
+git clone https://github.com/gellanyhassan0/gellany_tools.git "$INSTALL_DIR";
 echo "#!/bin/bash
 python $INSTALL_DIR/gellany_tools.py" '${1+"$@"}' > gellany_tools.py;
 chmod +x gellany_tools;
@@ -36,7 +36,7 @@ then
     echo "[✔] Tool istalled with success![✔]";
     echo "";
     echo "[✔]====================================================================[✔]";
-    echo "[✔] ✔✔✔  All is done!! You can execute tool by typing fsociety !   ✔✔✔ [✔]";
+    echo "[✔] ✔✔✔  All is done!! You can execute tool by typing gellany_tools !   ✔✔✔ [✔]";
     echo "[✔]====================================================================[✔]";
     echo "";
 else
