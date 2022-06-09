@@ -5,7 +5,7 @@ this app will help you in update and installing tools or apps without you try to
 gellany_tools have two mode ( single for using one command line or multi for using multi command line in terminal in same time with as posiible arguments
 
 
-this example if you want using nmap tools and you dont have installed yet in your os
+this example if you want using nmap tool and you dont have installed yet in your os and you can visit this links https://nmap.org https://nmap.org/book/scan-methods-null-fin-xmas-scan.html to advanced your arguments
 <code>python3 gellany_fsociety.py -to nmap -ta 192.168.1.1 -mo single -ar1 p22,443</code><br>
 <code>Starting Nmap 7.92SVN ( https://nmap.org ) at 2022-06-08 20:30 EDT</code><br>
 <code>Nmap scan report for 192.168.1.1</code><br>
