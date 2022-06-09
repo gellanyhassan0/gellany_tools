@@ -36,9 +36,9 @@ this example if you want using nmap tool and you dont have installed yet in your
 <code>Host is up (0.015s latency).</code><br>
 <code>Not shown: 997 closed tcp ports (reset)</code><br>
 <code>PORT    STATE SERVICE</code><br>
-<code>53/tcp  open  domain</code<br>
-<code>80/tcp  open  http</code<br>
-<code>443/tcp open  https</code<br>
+<code>53/tcp  open  domain</code><br>
+<code>80/tcp  open  http</code><br>
+<code>443/tcp open  https</code><br>
 <code>Nmap done: 1 IP address (1 host up) scanned in 13.64 seconds</code><br>
   
  <code>python3 gellany_tools.py -h
