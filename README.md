@@ -63,7 +63,7 @@ optional arguments:
 
 # docker deploy
 
-<code>docker-compose build
-docker-compose up -d
-docker-compose exec gellany_tools gellany_tools
+<code>docker-compose build</code><br>
+docker-compose up -d</code><br>
+docker-compose exec gellany_tools gellany_tools</code><br>
 docker-compose down</code><br>
