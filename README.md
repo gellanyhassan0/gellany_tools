@@ -42,3 +42,22 @@ this example if you want using nmap tool and you dont have installed yet in your
 <code>MAC Address: D8:29:18:63:40:1C (Huawei Technologies)<br>
 
 <code>Nmap done: 1 IP address (1 host up) scanned in 13.64 seconds</code><br>
+  
+ <code>python3 gellany_tools.py -h
+usage: gellany_tools.py [-h] [-ta TARGET] [-to TOOL] [-ar1 ARGUMENT1] [-ar2 ARGUMENT2] [-mo MODE] [-hsn HELP_STEALTH_NMAP]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -ta TARGET, --target TARGET
+                        target to check
+  -to TOOL, --tool TOOL
+                        tool or weapon want to fire
+  -ar1 ARGUMENT1, --argument1 ARGUMENT1
+                        argument1 want add to tool if you like
+  -ar2 ARGUMENT2, --argument2 ARGUMENT2
+                        argument2 want add to tool if you like
+  -mo MODE, --mode MODE
+                        argument mode if want to using two command line in same time or single
+  -hsn HELP_STEALTH_NMAP, --help_stealth_nmap HELP_STEALTH_NMAP
+   TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)</code><br>
+
