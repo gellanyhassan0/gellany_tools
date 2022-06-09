@@ -1,4 +1,4 @@
-# gellany_tools :
+# gellany tools 
 gellany_tools help who want to automate tools in single terminal in one app running with multi command line running as same time
 we inspire main idea only from https://github.com/juanbenitezdev/fsociety-1 and reduce 1800 code line with minumum 50 line as OOP skeleton 
 this app will help you in update and installing tools or apps without you try to install each it indvidual but should enter in -to --tool arugemnt name of tool
@@ -61,7 +61,7 @@ optional arguments:
   -hsn HELP_STEALTH_NMAP, --help_stealth_nmap HELP_STEALTH_NMAP
    TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)</code><br>
 
-#docker deploy
+# docker deploy
 
 <code>docker-compose build
 docker-compose up -d
