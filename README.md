@@ -1,6 +1,5 @@
-# gellany_tools
+# gellany_tools :help who want to automate tools in shell terminal in one app running
 we inspire main idea only from https://github.com/juanbenitezdev/fsociety-1 and reduce 1800 code line with minumum 50 line as OOP skeleton 
-this app help who want to automate tools in shell terminal in one app running
 this app will help you in update and installing tools or apps without you try to install each it indvidual but should enter in -to --tool arugemnt name of tool
 gellany_tools have two mode ( single for using one command line or multi for using multi command line in terminal in same time with as posiible arguments
 
