@@ -62,7 +62,7 @@ optional arguments:
    TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX)</code><br>
 
 # docker deploy
-/home/go/ = your path your already download git folder in it
+#/home/go/ = your path your already download git folder in it
 <code>docker image build -t python:0.0.1 /home/go/gellany_tools</code><br>
 <code>docker run python:0.0.1</code><br>
 
