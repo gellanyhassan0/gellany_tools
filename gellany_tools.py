@@ -57,7 +57,7 @@ class gellany_tools():
                       elif self.mode == "single" and isinstance(self.argument1, str) == True:
                                                   
                                                   os.system((self.tool) + " " + (self.target) + " " + ("-"+self.argument1))
-                      elif self.mode == "single":
+                      elif self.mode == "single" or self.mode == None:
                                                   
                                                   os.system((self.tool) + " " + (self.target))
                          
@@ -73,6 +73,8 @@ class gellany_tools():
                              else:
              
                                       os.system((self.tool) + " " + (self.target))  
+                       
+                      
       
                def tools(self):
                           
