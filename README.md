@@ -68,5 +68,6 @@ optional arguments:
 <code>docker ps</code><br>
 <code>docker exec -it f77d93571bcc python3 gellany_tools.py -h</code><br>
 <code>docker exec -it f77d93571bcc python3 gellany_tools.py -to nmap -ta 10.10.10.0/24</code><br>
+<code>docker stop</code><br>
 
 
