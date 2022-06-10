@@ -34,14 +34,14 @@ class gellany_tools():
                def install_check(self):
                              
                              
-                             if not self.installed():
+                             if self.installed() == False:
                                  self.install()
                                  self.run()
                              else:
                                  self.run()
 
                def installed(self):
-
+                             print("tool installed", os.path.isfile("/usr/bin/"+self.tool) or os.path.isfile("/usr/local/bin/"+self.tool))
                              return (os.path.isfile("/usr/bin/"+self.tool) or os.path.isfile("/usr/local/bin/"+self.tool))
              
                def install(self):
