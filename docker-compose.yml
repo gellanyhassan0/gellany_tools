@@ -1,5 +1,0 @@
-version: '2'
-
-services:
-  gellany_tools:
-    build: 
