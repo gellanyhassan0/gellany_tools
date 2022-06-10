@@ -1,8 +1,18 @@
 # gellany tools 
+https://github.com/gellanyhassan0/gellany_tools
+
 gellany_tools help who want to automate tools in single terminal in one app running with multi command line running as same time
 we inspire main idea only from https://github.com/juanbenitezdev/fsociety-1 and reduce 1800 code line with minumum 50 line as OOP skeleton 
 this app will help you in update and installing tools or apps without you try to install each it indvidual but should enter in -to --tool arugemnt name of tool
 gellany_tools have two mode ( single for using one command line or multi for using multi command line in terminal in same time with as posiible arguments
+
+# installing steps
+
+<code>git clone https://github.com/gellanyhassan0/gellany_tools</code><br>
+<code>cd gellany_tools</code><br>
+<code>pip install -r requirements.txt</code><br>
+<code> python3 gellany_tools -h</code><br>
+
 
 
 this example if you want using nmap tool and you dont have installed yet in your os and you can visit this links https://nmap.org https://nmap.org/book/scan-methods-null-fin-xmas-scan.html to advanced your arguments
