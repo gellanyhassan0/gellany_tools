@@ -46,7 +46,7 @@ class gellany_tools():
              
                def install(self):
                              os.system("apt-get update")
-                             os.system("apt-get install %s" % (self.tool))
+                             os.system("apt-get install -y %s" % (self.tool))
 
                def run(self):
 
