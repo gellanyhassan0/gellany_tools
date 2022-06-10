@@ -64,5 +64,8 @@ optional arguments:
 # docker deploy
 #/home/go/ = your path your already download git folder in it<br>
 <code>docker image build -t python:0.0.1 /home/go/gellany_tools</code><br>
-<code>docker run python:0.0.1</code><br>
+<code>docker run -it -d python:0.0.1</code><br>
+<code>docker ps</code><br>
+<code>docker exec -it f77d93571bcc python3 gellany_tools.py -h</code><br>
+
 
