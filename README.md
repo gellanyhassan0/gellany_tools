@@ -64,5 +64,5 @@ optional arguments:
 # docker deploy
 
 <code>docker image build -t python:0.0.1 /home/go/gellany_tools</code><br>
-<code>docker run python:0.0.1/code><br>
+<code>docker run python:0.0.1</code><br>
 
