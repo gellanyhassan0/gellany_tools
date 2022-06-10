@@ -1,20 +1,16 @@
-# Use Python 2.7 Slim
-FROM python:3.9
-ADD gellany_tools.py .
-# Update Repos
-RUN apt-get update \
-  && apt-get install -qq -y --no-install-recommends build-essential sudo git wget curl nmap ruby \
-  && apt-get clean
+#Deriving the latest base image
+FROM python:latest
 
-# Install Python dependecies
-RUN pip install requests
+#LABEL Maintainer="gellanyhassan0"
 
-# Install gellany_tools
-RUN mkdir /gellany_tools
-WORKDIR /gellany_tools
-COPY requirements.txt requirements.txt
-COPY gellany_tools.py gellany_tools.py
-RUN pip install --upgrade pip
+WORKDIR /home
+
+COPY gellany_tools.py ./
+COPY requirements.txt ./
+
+RUN apt-get update
+RUN apt-get install python3 -y
+RUN apt-get install python3-pip -y
+RUN pip install --upgrade pip 
 RUN pip install -r requirements.txt
-# Hack to keep the container running
-CMD [“python3”, “./gellany_tools.py"]
+CMD [ "python3", "./gellany_tools.py", "-to", "nmap", "-ta", "192.168.1.1", "-mo", "single", "-ar1", "p22,443"]
