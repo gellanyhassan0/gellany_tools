@@ -63,7 +63,6 @@ optional arguments:
 
 # docker deploy
 
-<code>docker build -t python-imagename .</code><br>
-<code>docker-compose up -d</code><br>
-<code>docker-compose exec gellany_tools gellany_tools</code><br>
-<code>docker-compose down</code><br>
+<code>docker image build -t python:0.0.1 /home/go/gellany_tools</code><br>
+<code>docker run python:0.0.1/code><br>
+
