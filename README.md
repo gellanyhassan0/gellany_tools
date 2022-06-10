@@ -70,4 +70,9 @@ optional arguments:
 <code>docker exec -it 6bbe10261172 python3 gellany_tools.py -to nmap -ta 192.168.1.1 -mo single -ar1 p22,443</code><br>
 <code>docker stop f77d93571bcc</code><br>
 
+# docker push
+<code>docker login --username username</code><br>
+<code>docker image list</code><br>
+<code>docker tag a2ac10640f5b gellany/python</code><br>
+<code>docker push gellany/python</code><br>
 
