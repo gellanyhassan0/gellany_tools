@@ -89,5 +89,8 @@ optional arguments:
 <code>docker push gellany/gellany_tools:latest</code><br>
 
 # docker image remove
-<code>docker images rm -a</code><br>
+<code>docker images rm </code><br>
+
+# docker image remove all
+<code>docker image prune --all</code><br>
 
