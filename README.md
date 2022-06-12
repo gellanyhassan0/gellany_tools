@@ -86,7 +86,7 @@ optional arguments:
 <code>docker login --username username</code><br>
 <code>docker image list</code><br>
 <code>docker tag a2ac10640f5b gellany/gellany_tools</code><br>
-<code>ddocker push gellany/gellany_tools:latest</code><br>
+<code>docker push gellany/gellany_tools:latest</code><br>
 
 # docker image remove
 <code>docker images rm -a</code><br>
